@@ -7,3 +7,4 @@ install:
 
 script: 
   - ./build.sh
+  - ./travis_qmake_clang_cpp98
