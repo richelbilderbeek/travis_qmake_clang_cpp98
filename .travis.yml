@@ -1,9 +1,13 @@
 language: cpp
 compiler: gcc
-sudo: true
+#sudo: true
 
-install:
-  - sudo apt-get install clang
+addons: 
+  apt: 
+    packages: clang
+
+#install:
+#  - sudo apt-get install clang
 
 script: 
   - ./build.sh
